@@ -1,0 +1,159 @@
+body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+#content-holder {
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+}
+
+#photo {
+    display: inline-block;
+    width: 400px;
+    height: 256px;
+}
+
+#photo img {
+    margin: 16px;
+    border-radius: 50%;
+    width: 224px;
+    height: 224px;
+    background-size: 100%;
+}
+
+div.horizontally-aligned {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.inline-header {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+
+div.inline-content {
+    display: inline-block;
+}
+
+div.inline-content h2 {
+    width: 256px;
+}
+
+div.social-media-button {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+div.social-media-button img {
+    width: 70px;
+    height: 70px;
+}
+
+#email-me {
+    width: 256px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    background: #F77109;
+    border-radius: 14px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+#email-me span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h1 {
+    color: #F77109;
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0px;
+}
+
+h2 {
+    color: #F77109;
+    font-size: 2em;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+div.delimiter {
+    height: 6px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #F77109;
+}
+
+div.block-holder {
+    margin-bottom: 64px;
+}
+
+div.social-media-holder {
+    margin: 24px 0px;
+}
+
+#submit-form-holder {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    width: 300px;
+    height: 600px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    background: white;
+    display: none;
+}
+
+#submit-form-holder input {
+    margin: 16px 16px 0px 16px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: 268px;
+    padding: 0px 8px;
+    border: 1px solid gray;
+}
+
+#submit-form-holder textarea {
+    box-sizing: border-box;
+    resize: none;
+    margin: 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 268px;
+    height: 320px;
+    padding: 0px 8px;
+}
+
+div.submit-form-element {
+    margin: 16px 16px 0px;
+    border: 1px black;
+}
+
+#submit {
+    width: 128px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #F77109;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#submit span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: bold;
+}
